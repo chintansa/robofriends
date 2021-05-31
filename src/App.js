@@ -25,7 +25,7 @@ class App extends Component{
 
       return (
         <div className='tc'>
-        <h1> ROBOFRIENDS</h1>   
+        <h1 style={{ fontFamily:'fantasy'}} > ROBOFRIENDS </h1>   
         <SearchBox SearchChange={this.onSearchChange}/> 
         <CardArray robots={filterValue}/>
         </div>
